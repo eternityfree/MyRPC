@@ -2,17 +2,49 @@ syntax="proto3";//声明protobuf的版本
 
 package fixbug; //声明了代码所在的包（对于c++来说是namespace）
 
+//响应消息封装
+message ReturnMessage
+{
+    int32 errcode=1;
+    bytes errmsg=2;
+}
+
+
 //定义登录请求消息类型 name pwd
 message LoginRequest
 {
-    string name=1;  //后面的数字代表第几个字段
-    string pwd=2;
+    bytes name=1;  //后面的数字代表第几个字段
+    bytes pwd=2;
 }
 
 //定义登录响应消息类型
 message LoginResponse
 {
-    int32 errcode=1;
-    string errmsg=2;
-    bool success=3;
+    ReturnMessage ret=1;
+    bool success=2;
+}
+
+//定义用户
+message User
+{
+    bytes name=1;
+    uint32 age=2;
+    enum Gender
+    {
+        MAN=0;
+        WOMAN=1;
+    }
+    Gender gender=3;
+}
+
+
+
+
+//定义获取好友列表
+message GerFriendsList
+{
+    ReturnMessage ret=1;
+    repeated User userList=2;
+    repeated uint32 manNum=3;
+
 }
