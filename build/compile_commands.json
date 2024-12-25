@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/lzy/MyRPC/build/src",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/myrpc.dir/myrpcApplication.cc.o -c /home/lzy/MyRPC/src/myrpcApplication.cc",
+  "file": "/home/lzy/MyRPC/src/myrpcApplication.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/src",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/myrpc.dir/myrpcconfig.cc.o -c /home/lzy/MyRPC/src/myrpcconfig.cc",
+  "file": "/home/lzy/MyRPC/src/myrpcconfig.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/src",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/myrpc.dir/rpcheader.pb.cc.o -c /home/lzy/MyRPC/src/rpcheader.pb.cc",
+  "file": "/home/lzy/MyRPC/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/src",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/myrpc.dir/rpcprovider.cc.o -c /home/lzy/MyRPC/src/rpcprovider.cc",
+  "file": "/home/lzy/MyRPC/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/src",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/myrpc.dir/myrpcchannel.cc.o -c /home/lzy/MyRPC/src/myrpcchannel.cc",
+  "file": "/home/lzy/MyRPC/src/myrpcchannel.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/src",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/myrpc.dir/myrpccontroller.cc.o -c /home/lzy/MyRPC/src/myrpccontroller.cc",
+  "file": "/home/lzy/MyRPC/src/myrpccontroller.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/src",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/myrpc.dir/logger.cc.o -c /home/lzy/MyRPC/src/logger.cc",
+  "file": "/home/lzy/MyRPC/src/logger.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/src",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/myrpc.dir/zookeeperutil.cc.o -c /home/lzy/MyRPC/src/zookeeperutil.cc",
+  "file": "/home/lzy/MyRPC/src/zookeeperutil.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/provider.dir/userservice.cc.o -c /home/lzy/MyRPC/example/callee/userservice.cc",
+  "file": "/home/lzy/MyRPC/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/lzy/MyRPC/example/user.pb.cc",
+  "file": "/home/lzy/MyRPC/example/user.pb.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/example/caller",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/lzy/MyRPC/example/caller/calluserservice.cc",
+  "file": "/home/lzy/MyRPC/example/caller/calluserservice.cc"
+},
+{
+  "directory": "/home/lzy/MyRPC/build/example/caller",
+  "command": "/usr/bin/g++  -I/home/lzy/MyRPC/src/include -I/home/lzy/MyRPC/example -g -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/lzy/MyRPC/example/user.pb.cc",
+  "file": "/home/lzy/MyRPC/example/user.pb.cc"
+}
+]
